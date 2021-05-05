@@ -78,11 +78,14 @@ i {
 }
 .testimonial-image {
   border-radius: 100%;
-  width: 35%;
+  width: 25%;
+  height: 100%;
+  padding: 20px;
 }
 
 .testimonial-image:hover {
-  width: 30%;
+  width: 25%;
+  height: 90%;
   margin: 16px;
 }
 
@@ -123,6 +126,10 @@ i {
 
 .card-body{
   color: black;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
 }
 
 #title {
@@ -172,6 +179,7 @@ i {
 
 #testimonials {
   color: white;
+
 }
 
 #pricing {
@@ -230,15 +238,17 @@ i {
   .testimonial-image {
     border-radius: 50%;
     width: 30%;
+    height: 30%;
   }
 
   .testimonial-image:hover {
     border-radius: 40%;
-    width: 30%;
+    width: 25%;
+    height: 25%;
     margin: 16px;
   }
 
   .testimonial-text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
